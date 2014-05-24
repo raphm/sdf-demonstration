@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>SDF Font Rendering Demonstration</title>
+  <script type="text/javascript" src="js/gl-matrix-min.js"></script>
+  <script type="text/javascript" src="js/webgl-utils.js"></script>
+  <script type="text/javascript" src="js/gl-skel.js"></script>
+  <script type="text/javascript" src="js/cube.js"></script>
+  <script type="text/javascript" src="js/sdftext.js"></script>
+  <script type="text/javascript" src="js/main-loop.js"></script>
+</head>
+
+<body onload="webGLStart();">
+
+  <canvas
+    id="main-canvas"
+    style="border: none;"
+    width="800"
+    height="500">
+  </canvas>
+
+  <p>Use the 'a' and 'd' keys to move the text left and right.</p>
+
+  <p>Use the 'w' and 's' keys to move the text towards and away from you.</p>
+
+  <p>Use the 'q' and 'e' keys to move the text up and down.</p>
+
+  <p>Use the 'g' key to turn on glowing borders. Use the 'h' key to turn off the glowing borders.</p>
+
+  <p>
+    The cube code in this example is heavily altered, but had its origins in
+    code from <a href="http://learningwebgl.com/blog/?p=859">Lesson 8</a>
+    from LearningWebGL.com.
+  </p>
+
+</body>
+</html>
